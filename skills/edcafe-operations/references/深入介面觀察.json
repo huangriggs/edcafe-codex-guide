@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "observedAt": "2026-10-04",
+  "source": "登入後現有教材編輯器，只讀探索，未Save或Update",
+  "editorObservations": [
+    {
+      "controls": [
+        "Instructions",
+        "Capabilities",
+        "Knowledge",
+        "Language",
+        "Prompt Assistant",
+        "File Upload",
+        "Voice Messages",
+        "Whiteboard",
+        "Text Editor",
+        "Code Editor"
+      ],
+      "tool": "Chatbot",
+      "status": "四分頁已開啟；未對話實測"
+    },
+    {
+      "controls": [
+        "Front/Back rich text",
+        "Move up/down",
+        "Regenerate back card",
+        "Delete card",
+        "Search/AI Image/Upload",
+        "Voice",
+        "Add new card"
+      ],
+      "tool": "Flashcards",
+      "status": "編輯器與相關選單已開啟；未改內容"
+    },
+    {
+      "controls": [
+        "Reading passage",
+        "Audio player",
+        "Download audio",
+        "Vocabulary words",
+        "Question/options/radio/explanation"
+      ],
+      "tool": "Reading Activity",
+      "status": "編輯器已開啟；未試聽或下載"
+    },
+    {
+      "controls": [
+        "Assignment details",
+        "Grading instruction",
+        "Rubric",
+        "Output language",
+        "Update",
+        "Discard"
+      ],
+      "tool": "Assignment Grader",
+      "status": "編輯器已開啟；未評分"
+    },
+    {
+      "controls": [
+        "Rich text",
+        "Heading/list",
+        "Insert/Edit Link",
+        "Insert image",
+        "Insert audio",
+        "Save",
+        "Back"
+      ],
+      "tool": "Summary Note",
+      "status": "編輯器已開啟；未改內容"
+    },
+    {
+      "controls": [
+        "Rich text",
+        "Objectives",
+        "Activities",
+        "Insert/Edit Link",
+        "Insert image",
+        "Insert audio",
+        "Save",
+        "Back"
+      ],
+      "tool": "Lesson Plan",
+      "status": "編輯器已開啟；未改內容"
+    },
+    {
+      "controls": [
+        "Click or press Enter to edit the text content",
+        "Add slide(s)",
+        "Describe the slide(s) to add",
+        "Instructions",
+        "Generate Slides"
+      ],
+      "tool": "Slide Deck",
+      "status": "編輯器與新增頁指令對話框已開啟；未新增"
+    },
+    {
+      "controls": [
+        "Play video preview",
+        "Video title/duration/link",
+        "Question/options/radio/explanation",
+        "Question"
+      ],
+      "tool": "YouTube Quiz",
+      "status": "編輯器已開啟；未播放或修改"
+    }
+  ],
+  "additionalCreationOptions": {
+    "FlashcardsTemplates": [
+      "Term and definition",
+      "Question and answer",
+      "Vocabulary cards",
+      "True or false",
+      "Fill in the blank",
+      "Custom"
+    ],
+    "images": [
+      "I will add images later",
+      "Automatically add to front",
+      "Automatically add to back"
+    ],
+    "cardCounts": [
+      "Automatic",
+      "5",
+      "10",
+      "15",
+      "20",
+      "30"
+    ]
+  },
+  "limits": [
+    "Quiz學生Preview和Word下載沿用上輪待重測狀態",
+    "未讀取個別學生資料",
+    "官方功能描述與UI實測分開",
+    "建立頁Close曾未關閉Create New選單，確認底下為Library後直接回已知教師頁"
+  ]
+}

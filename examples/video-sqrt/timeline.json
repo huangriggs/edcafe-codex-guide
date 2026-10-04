@@ -1,0 +1,44 @@
+[
+  {
+    "scene": 1,
+    "title": "從面積找邊長",
+    "start": 0,
+    "voice_duration": 40.442667,
+    "duration": 43.442667
+  },
+  {
+    "scene": 2,
+    "title": "平方根：把平方倒過來想",
+    "start": 43.442667,
+    "voice_duration": 34.797875,
+    "duration": 37.797875
+  },
+  {
+    "scene": 3,
+    "title": "正數有兩個平方根",
+    "start": 81.240542,
+    "voice_duration": 35.738667,
+    "duration": 38.738667
+  },
+  {
+    "scene": 4,
+    "title": "根號與平方根，讀清楚題目",
+    "start": 119.979209,
+    "voice_duration": 44.583458,
+    "duration": 47.583458
+  },
+  {
+    "scene": 5,
+    "title": "零與負數的情況",
+    "start": 167.562667,
+    "voice_duration": 40.068271,
+    "duration": 43.068271
+  },
+  {
+    "scene": 6,
+    "title": "停一下，自己試試看",
+    "start": 210.63093800000001,
+    "voice_duration": 53.161063,
+    "duration": 56.161063
+  }
+]

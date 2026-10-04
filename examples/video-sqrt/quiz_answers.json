@@ -1,0 +1,27 @@
+[
+  {
+    "question": 1,
+    "answer": "A",
+    "explanation": "5×5＝25，且邊長是正的長度，所以是5公分。"
+  },
+  {
+    "question": 2,
+    "answer": "B",
+    "explanation": "5²＝25，而且(−5)²＝25，所以平方根是5與−5。"
+  },
+  {
+    "question": 3,
+    "answer": "C",
+    "explanation": "√25表示25的正平方根，因此等於5；不是±5。"
+  },
+  {
+    "question": 4,
+    "answer": "D",
+    "explanation": "0²＝0；正0與負0是同一個數，所以只有一個平方根0。"
+  },
+  {
+    "question": 5,
+    "answer": "A",
+    "explanation": "實數的平方都不小於0，因此−9沒有實數平方根。"
+  }
+]

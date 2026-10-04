@@ -1,0 +1,238 @@
+{
+  "version": "2.2",
+  "observedAt": "2026-10-04",
+  "source": "Edcafe登入後可見介面與本次測驗實作",
+  "operations": [
+    {
+      "id": "chatbot",
+      "title": "聊天機器人",
+      "keywords": "Chatbot 概念補救 試聊 平方根 提示 Knowledge",
+      "route": "Create New → Chatbot | /me/create?type=chatbot2",
+      "status": "已實測自訂指示、Knowledge文字筆記、繁體語言、Private保存與教師Preview合成對話；提示遵循仍有部分限制，正式學生提交／報表未測"
+    },
+    {
+      "id": "quiz",
+      "title": "測驗",
+      "keywords": "Quiz",
+      "route": "Create New → Quiz | /me/create?type=quiz",
+      "status": "已實測建立、儲存與重開"
+    },
+    {
+      "id": "youtube-quiz",
+      "title": "影片測驗",
+      "keywords": "YouTube Quiz",
+      "route": "Create New → YouTube Quiz | /me/create?type=youtube_quiz",
+      "status": "已實測原創影片＋CC字幕、生成五題、Private保存、重開核對與學生入口；未測交卷評分"
+    },
+    {
+      "id": "flashcards",
+      "title": "記憶卡",
+      "keywords": "Flashcards",
+      "route": "Create New → Flashcards | /me/create?type=flashcards",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "reading-activity",
+      "title": "閱讀活動",
+      "keywords": "Reading Activity",
+      "route": "Create New → Reading Activity | /me/create?type=reading",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "assignment-grader",
+      "title": "作業評分",
+      "keywords": "Assignment Grader",
+      "route": "Create New → Assignment Grader | /me/create?type=assignment_grader",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "slide-deck",
+      "title": "簡報",
+      "keywords": "Slide Deck",
+      "route": "Create New → Slide Deck | /me/create?type=slidedeck",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "teaching-resources",
+      "title": "教學資源",
+      "keywords": "Teaching Resources",
+      "route": "Create New → Teaching Resources | /me/create?type=teaching_resource",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "summary-note",
+      "title": "摘要筆記",
+      "keywords": "Summary Note",
+      "route": "Create New → Summary Note | /me/create?type=summary_note",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "lesson-plan",
+      "title": "教案",
+      "keywords": "Lesson Plan",
+      "route": "Create New → Lesson Plan | /me/create?type=lesson_plan",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "ai-speech",
+      "title": "語音",
+      "keywords": "AI Speech",
+      "route": "Create New → AI Speech | /me/create?type=ai_speech",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "ai-image",
+      "title": "圖片",
+      "keywords": "AI Image",
+      "route": "Create New → AI Image | /me/create?type=ai_image",
+      "status": "已確認建立表單；未生成成品"
+    },
+    {
+      "id": "search",
+      "title": "搜尋教材",
+      "keywords": "Search Library 查找",
+      "route": "My Library → Search → 關鍵字 → Enter",
+      "status": "已實測搜尋"
+    },
+    {
+      "id": "quiz-edit",
+      "title": "編輯題目正解",
+      "keywords": "Edit 答案 選項 radio",
+      "route": "教材頁 → Edit → 題目／選項／正解 → Save → 重開",
+      "status": "已實測"
+    },
+    {
+      "id": "save",
+      "title": "儲存私有教材",
+      "keywords": "Save Private Visibility",
+      "route": "Save → File name → Folder → Private → Save",
+      "status": "Quiz已實測"
+    },
+    {
+      "id": "assign",
+      "title": "測驗派發與模式",
+      "keywords": "Assign Practice Classic Assessment QR 計時",
+      "route": "教材頁 → Assign → Select Quiz Mode／Copy link／Save QR",
+      "status": "已確認介面；未學生端提交"
+    },
+    {
+      "id": "share",
+      "title": "分享教材",
+      "keywords": "Share Clone 權限",
+      "route": "Share → View Content／View Content & Submissions／Clone Content",
+      "status": "已確認介面"
+    },
+    {
+      "id": "report",
+      "title": "作答報表",
+      "keywords": "Report Participants Questions 統計",
+      "route": "View Report → Participants／Questions | /me/file?view=responses&fId=<ID>",
+      "status": "已打開零作答報表"
+    },
+    {
+      "id": "export",
+      "title": "匯出教材",
+      "keywords": "Export Word PDF PPT Google Forms",
+      "route": "Export → Word／Docs／PowerPoint／Slides／Forms／PDF",
+      "status": "選單已確認；Word下載待重測"
+    },
+    {
+      "id": "preview",
+      "title": "學生預覽",
+      "keywords": "Preview 學生 作答",
+      "route": "Assign → Preview → 新分頁",
+      "status": "待重測：持續載入"
+    },
+    {
+      "id": "manage",
+      "title": "教材管理",
+      "keywords": "Rename Move Clone Translate Delete Visibility",
+      "route": "Library → 目標列右側選單",
+      "status": "選單已確認；未執行變更"
+    },
+    {
+      "id": "settings",
+      "title": "全站預設",
+      "keywords": "Settings Public 語言",
+      "route": "/me/settings",
+      "status": "已讀取；未修改"
+    },
+    {
+      "id": "analytics",
+      "title": "AI學習分析",
+      "keywords": "Analytics 分析 報告",
+      "route": "/me/analytics → Select a file to get started",
+      "status": "已確認選檔介面；未生成報告"
+    },
+    {
+      "id": "submissions",
+      "title": "提交資料入口",
+      "keywords": "Submissions 作答紀錄",
+      "route": "/me/submissions",
+      "status": "已確認側欄連結；未讀取個別資料"
+    },
+    {
+      "id": "saved-prompts",
+      "title": "保存提示詞",
+      "keywords": "Saved prompts 範本",
+      "route": "建立表單 → Saved prompts → Create prompt",
+      "status": "已確認選單；未保存新提示詞"
+    },
+    {
+      "route": "診斷Quiz → 問答卡 → Practice → 獨立新題",
+      "id": "case-remedial",
+      "title": "15分鐘概念補救",
+      "status": "教學設計建議；學生模式待測",
+      "keywords": "補救 平方根 正負 迷思 Flashcards Practice"
+    },
+    {
+      "route": "Lesson Plan → Slide Deck → 診斷Quiz → 分層練習 → 離堂題",
+      "id": "case-lesson",
+      "title": "45分鐘完整新課",
+      "status": "教學設計建議",
+      "keywords": "教案 新課 Lesson Plan Slide Deck"
+    },
+    {
+      "route": "審片與CC → YouTube Quiz → 課堂新情境檢核",
+      "id": "case-video",
+      "title": "影片課前預習",
+      "status": "教學設計建議",
+      "keywords": "預習 翻轉 YouTube CC"
+    },
+    {
+      "route": "共用核心目標 → 不同提示活動 → 同一核心檢核",
+      "id": "case-differentiation",
+      "title": "差異化複習",
+      "status": "教學設計建議；非自動分組",
+      "keywords": "分層 程度 差異 Chatbot"
+    },
+    {
+      "route": "規準 → 合成答案校準 → 學生作答 → 訂正 → 教師複核",
+      "id": "case-grading",
+      "title": "非選擇題與訂正",
+      "status": "教學設計建議；提交及評分待測",
+      "keywords": "訂正 評分 步驟 Assignment Grader Rubric"
+    },
+    {
+      "route": "Reading Activity → 辨識條件 → Quiz列式 → Chatbot追問",
+      "id": "case-reading",
+      "title": "應用題讀題支持",
+      "status": "教學設計建議",
+      "keywords": "讀題 閱讀 應用題 Reading Activity"
+    },
+    {
+      "route": "來源 → 筆記 → 記憶卡 → Quiz → Questions補救",
+      "id": "case-review",
+      "title": "段考前複習",
+      "status": "教學設計建議",
+      "keywords": "段考 複習 Summary Note Questions"
+    },
+    {
+      "route": "設計可印材料 → 真實下載與公式驗收 → 投影／紙本",
+      "id": "case-offline",
+      "title": "無裝置與紙本",
+      "status": "教學設計建議；匯出待測",
+      "keywords": "紙本 無裝置 PDF Word 投影"
+    }
+  ]
+}
