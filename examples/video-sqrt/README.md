@@ -6,7 +6,7 @@
 
 narration.json供腳本改作，captions.srt和timeline.json是原版本時間資料，quiz_questions.json／quiz_answers.json分離。若重製語音或修改腳本，必須重新對齊並驗證SRT，不能沿用時間就當同步。
 
-給其他使用者的預設語音工具為 **edge-tts**，請依[影片語音與字幕流程](../../docs/影片語音與字幕.md)先生成台灣華語短段，核對後再製作完整影片。需要 Python 與網路，不要求 GPU 或 VoxCPM2；字幕時間須依新音軌重算。
+給其他使用者的預設語音工具為 **edge-tts**，請依[影片語音與字幕流程](../../docs/影片語音與字幕.md)先生成台灣華語短段，核對後再製作完整影片。需要 Python 與網路，不要求 GPU 或 VoxCPM2。可用 `python -m pip install edge-tts` 安裝，透過 `edge-tts --list-voices` 確認語音，再以 `edge-tts --voice zh-TW-HsiaoChenNeural --text "旁白文字" --write-media narration.mp3` 產生音檔。字幕時間須依新音軌重算。
 
 原案例製作環境：Python＋Pillow動畫、FFmpeg、Windows繁體字型、本機VoxCPM2聲音、large-v3 ASR輔助核對。VoxCPM2 僅是作者已安裝環境的選配；這些環境與音軌未隨repo安裝。
 
