@@ -6,6 +6,8 @@
 
 narration.json供腳本改作，captions.srt和timeline.json是原版本時間資料，quiz_questions.json／quiz_answers.json分離。若重製語音或修改腳本，必須重新對齊並驗證SRT，不能沿用時間就當同步。
 
-原製作環境：Python＋Pillow動畫、FFmpeg、Windows繁體字型、本機VoxCPM2聲音、large-v3 ASR輔助核對。這些環境與音軌未隨repo安裝；請依自己可用工具製作，確定旁白公式讀法、字幕、動畫與內容。
+給其他使用者的預設語音工具為 **edge-tts**，請依[影片語音與字幕流程](../../docs/影片語音與字幕.md)先生成台灣華語短段，核對後再製作完整影片。需要 Python 與網路，不要求 GPU 或 VoxCPM2；字幕時間須依新音軌重算。
+
+原案例製作環境：Python＋Pillow動畫、FFmpeg、Windows繁體字型、本機VoxCPM2聲音、large-v3 ASR輔助核對。VoxCPM2 僅是作者已安裝環境的選配；這些環境與音軌未隨repo安裝。
 
 可給Codex：「讀這份旁白，先幫我做六段分鏡與短預覽；說明你的可用工具。製作後先完成字幕文字、自然斷句、同步、缺字和最終影片QA，再準備YouTube上傳和CC。」

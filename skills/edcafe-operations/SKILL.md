@@ -12,7 +12,7 @@ description: 依教學目標設計Edcafe教材與活動，利用操作索引引�
 
 Quiz的AI曾重排選項，正解必須以最後實際選項與radio checked為準，保存後重開。placeholder取得焦點可能變化，先看目前DOM再用穩定欄位定位。來源、題目、答案、解析分離；數學內容需獨立核算。
 
-影片測驗先完成最終MP4字幕文字、斷句、同步、缺字及實際顯示檢查，再上傳。硬字幕不能替代YouTube CC；CC發布與播放器選項均核對後才貼URL。一般Quiz與YouTube Quiz的Assign設定不同，不能套用三模式。
+影片旁白預設建議 edge-tts（Python、網路及線上語音服務），不要求其他使用者安裝 VoxCPM2 或 GPU。VoxCPM2 僅限使用者已具備且希望採用的本機選項；完整流程見套件 docs/影片語音與字幕.md。重新生成音軌需重算字幕時間。影片測驗先完成最終MP4字幕文字、斷句、同步、缺字及實際顯示檢查，再上傳。硬字幕不能替代YouTube CC；CC發布與播放器選項均核對後才貼URL。一般Quiz與YouTube Quiz的Assign設定不同，不能套用三模式。
 
 Chatbot把教材事實放Knowledge、引導規則放Instructions，使用合成身份教師試聊，測直接索答、錯誤步驟、不同解法、範圍外及多回合補救。Test me out教師Preview明示session不保存；Copy message出現不表示串流完成。提示詞不是嚴格狀態機，保留偏離紀錄並依證據修正，參考examples需從下載套件位置查找。
 
